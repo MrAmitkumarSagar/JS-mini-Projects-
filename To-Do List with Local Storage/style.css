@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", serif;
+}
+
+body{
+    background-color: rgb(68, 63, 63);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainContainer{ 
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.inputContainer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.inputContainer input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inputContainer input[type="button"]{
+    width: 15%;
+    min-width: 100px;
+    background-color: #12225e;
+    color: aliceblue;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.inputContainer input[type="button"]:hover{
+    background-color:  #444e73;;
+
+}
+
+.inputContainer input[type="text"]{
+    width: 80%;
+}
+ul li{
+    word-wrap:break-word;
+    list-style: none;
+    cursor: pointer;
+    border: .25px solid rgb(182, 175, 176);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s;
+
+}
+ul li:hover{
+    background-color: #595c5e;
+}
+
+ul li p{
+
+   max-width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.buttons{ 
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 5px;
+    padding : 5px;
+    border-radius: 15%;
+    color: #ffffff;
+    background-color: #12225e;
+}
+.buttons:hover{   background-color:  #3f9b64;;}
